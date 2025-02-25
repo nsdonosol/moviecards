@@ -1,6 +1,8 @@
 package com.lauracercas.moviecards;
 
-import org.springframework.boot.SpringApplication;
+
+
+import org.springframework.boot.SpringApplication//no la comento por que el id me la autocompleta
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
