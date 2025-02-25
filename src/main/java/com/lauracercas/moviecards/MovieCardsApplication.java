@@ -2,7 +2,7 @@ package com.lauracercas.moviecards;
 
 
 
-import org.springframework.boot.SpringApplication//no la comento por que el id me la autocompleta
+import org.springframework.boot.SpringApplication// me toca asi porque el ide lo importa de nuevo
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
