@@ -2,7 +2,7 @@ package com.lauracercas.moviecards;
 
 
 
-import org.springframework.boot.SpringApplication// me toca ssi porque el id lo importa de forma automatica
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
