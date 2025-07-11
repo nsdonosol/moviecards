@@ -26,8 +26,8 @@ public class ActorJPAIT {
     public void testSaveActor() {
         Actor actor = new Actor();
         actor.setName("actor");
-        actor.setBirthDate(new Date());
         actor.setCountry("spain");
+        actor.setBirthDate(new Date()); // fecha de nacimiento
 
         Actor savedActor = actorJPA.save(actor);
 
