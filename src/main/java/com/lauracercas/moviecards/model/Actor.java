@@ -28,12 +28,23 @@ public class Actor {
     @ManyToMany(mappedBy = "actors")
     private List<Movie> movies;
 
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date deadDate;
+
     public Actor() {
     }
 
     public Actor(Integer id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public Date getDeadDate() {
+        return deadDate;
+    }
+
+    public void setDeadDate(Date deadDate) {
+        this.deadDate = deadDate;
     }
 
     public Integer getId() {
