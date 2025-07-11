@@ -29,12 +29,6 @@ public class ActorTest {
         assertEquals(nameExample, actor.getName());
     }
 
-    @Test
-    void testSetGetBirthDate() {
-        Date birthDateExample = new Date();
-        actor.setBirthDate(birthDateExample);
-        assertEquals(birthDateExample, actor.getBirthDate());
-    }
 
     @Test
     void testSetGetCountry() {
@@ -49,6 +43,13 @@ public class ActorTest {
         List<Movie> moviesExample = new ArrayList<Movie>();
         actor.setMovies(moviesExample);
         assertEquals(moviesExample, actor.getMovies());
+    }
+
+    @Test
+    void testSetGetBirthDate() {
+        Date birthDateExample = new Date();
+        actor.setBirthDate(birthDateExample);
+        assertEquals(birthDateExample, actor.getBirthDate());
     }
 
 }
