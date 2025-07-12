@@ -52,4 +52,11 @@ public class ActorTest {
         assertEquals(birthDateExample, actor.getBirthDate());
     }
 
+    @Test
+    void testSetGetDeathDate() {
+        Date deadDateExample = new Date();
+        actor.setDeadDate(deadDateExample);
+        assertEquals(deadDateExample, actor.getDeadDate());
+    }
+
 }
