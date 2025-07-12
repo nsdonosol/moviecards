@@ -28,6 +28,7 @@ public class ActorJPAIT {
         actor.setName("actor");
         actor.setCountry("spain");
         actor.setBirthDate(new Date()); // fecha de nacimiento
+        actor.setDeadDate(new Date()); // fecha de fallecimiento
 
         Actor savedActor = actorJPA.save(actor);
 
@@ -44,6 +45,7 @@ public class ActorJPAIT {
         Actor actor = new Actor();
         actor.setName("actor");
         actor.setBirthDate(new Date());
+        actor.setDeadDate(new Date());
         Actor savedActor = actorJPA.save(actor);
 
         Optional<Actor> foundActor = actorJPA.findById(savedActor.getId());
